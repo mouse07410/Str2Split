@@ -5,7 +5,7 @@ import Lib
 
 main :: IO ()
 main = do
-  let s = "2d4fda81c8ce783asomeFunc" :: String
+  let s = "2d4fda81c8ce7830someFunc" :: String
   putStrLn "Testing splitStr with complicated 'foldr'"
   print (splitStr 3 s :: String)
   putStrLn "Testing my 'chunker' that uses 'unfoldr'"
