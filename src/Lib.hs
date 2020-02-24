@@ -26,7 +26,7 @@ chunk'' n = takeWhile (not . null) . unfoldr (Just . splitAt n)
 chunker :: Int -> [a] -> [[a]]
 chunker = chunk''
 
-splitMore :: Int -> [Char] -> String
+splitMore :: Int -> String -> String
 splitMore n z = (unwords $ chunk'' n z) :: String
 
 splitLess :: Int -> String -> String
