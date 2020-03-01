@@ -5,4 +5,5 @@ stack.yaml.lock
 .idea/
 dist/**
 new-dist/**
+dist-newstyle/**
 out/
