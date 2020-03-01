@@ -3,6 +3,6 @@ Str2Split.cabal
 stack.yaml.lock
 *~
 .idea/
-dist/
-new-dist/
+dist/**
+new-dist/**
 out/
