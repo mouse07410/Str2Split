@@ -6,7 +6,11 @@
         {
             "label": "Cabal build",
             "type": "shell",
-            "command": "cabal build"
+            "command": "cabal build",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
         },
         {
             "label": "Cabal run",
@@ -26,7 +30,8 @@
         {
             "label": "Stack build",
             "type": "shell",
-            "command": "stack build"
+            "command": "stack build",
+            "group": "build"
         },
         {
             "label": "Stack run",
