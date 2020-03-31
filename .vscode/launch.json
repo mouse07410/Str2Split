@@ -10,7 +10,7 @@
             "name": "haskell-debug-adapter",
             "internalConsoleOptions": "openOnSessionStart",
             "workspace": "${workspaceRoot}",
-            "startup": "${workspaceFolder}/Main.hs",
+            "startup": "${workspaceFolder}/app/Main.hs",
             "startupFunc": "",
             "startupArgs": "",
             "stopOnEntry": false,
