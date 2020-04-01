@@ -1,7 +1,6 @@
 module Main where
 
-import Lib
---(chunker, splitLess, splitMore, splitStr)
+import Lib (chunker, splitLess, splitMore, splitStr)
 
 main :: IO ()
 main = do

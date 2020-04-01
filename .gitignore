@@ -3,6 +3,7 @@ Str2Split.cabal
 stack.yaml.lock
 *~
 .idea/
+.vscode/phoityne.log
 dist/**
 new-dist/**
 dist-newstyle/**
