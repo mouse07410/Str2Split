@@ -1,5 +1,4 @@
 .stack-work/
-Str2Split.cabal
 stack.yaml.lock
 *~
 .idea/
