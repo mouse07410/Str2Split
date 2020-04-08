@@ -20,7 +20,11 @@
         {
             "label": "Cabal test",
             "type": "shell",
-            "command": "cabal run Str2Split-test"
+            "command": "cabal test",
+            "group":{
+                "kind": "test",
+                "isDefault": true
+            },
         },
         {
             "label": "Cabal clean",
