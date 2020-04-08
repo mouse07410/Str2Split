@@ -46,3 +46,5 @@ tests:
     - -with-rtsopts=-N
     dependencies:
     - Str2Split
+    - hspec >= 2.7.1
+    - QuickCheck >= 2.13
