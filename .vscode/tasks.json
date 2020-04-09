@@ -15,13 +15,13 @@
         {
             "label": "Cabal run",
             "type": "shell",
-            "command": "cabal run Str2Split-exe"
+            "command": "cabal run Str2Split-exe",
         },
         {
             "label": "Cabal test",
             "type": "shell",
             "command": "cabal test",
-            "group":{
+            "group": {
                 "kind": "test",
                 "isDefault": true
             },
@@ -41,6 +41,12 @@
             "label": "Stack run",
             "type": "shell",
             "command": "stack run"
+        },
+        {
+            "label": "Stack test",
+            "type": "shell",
+            "command": "stack test",
+            "group": "test"
         },
         {
             "label": "Stack clean",
