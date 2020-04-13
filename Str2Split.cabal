@@ -50,15 +50,15 @@ executable Str2Split-exe
 
 test-suite Str2Split-test
   type: exitcode-stdio-1.0
+  hs-source-dirs:
+      test
   main-is: Spec.hs
   other-modules:
       Paths_Str2Split
-  hs-source-dirs:
-      test
   ghc-options: -threaded -rtsopts -with-rtsopts=-N
   build-depends:
       Str2Split
     , base >= 4.7 && <5
     , hspec >= 2.7.1
     , QuickCheck >= 2.13
-  default-language: Haskell2010 
+  default-language: Haskell2010
