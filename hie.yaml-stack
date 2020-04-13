@@ -1,0 +1,11 @@
+# target examples https://cabal.readthedocs.io/en/latest/cabal-commands.html#cabal-v2-build
+cradle:
+  stack:
+    - path: "./"
+      component: "Str2Split:lib"
+
+    - path: "./test/"
+      component: "Str2Split:test:Str2Split-test"
+      
+    - path: "./app/"
+      component: "Str2Split:exe:Str2Split-exe"
