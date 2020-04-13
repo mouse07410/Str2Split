@@ -19,11 +19,10 @@ extra-source-files:
 # common to point users to the README.md file.
 description:         Please see the README on GitHub at <https://github.com/mouse07410/Str2Split#readme>
 
-dependencies:
-- base >= 4.7 && < 5
-
 library:
   source-dirs: src
+  dependencies:
+  - base >= 4.7 && < 5
 
 executables:
   Str2Split-exe:
@@ -34,6 +33,7 @@ executables:
     - -rtsopts
     - -with-rtsopts=-N
     dependencies:
+    - base >= 4.7 && < 5
     - Str2Split
 
 tests:
@@ -45,6 +45,7 @@ tests:
     - -rtsopts
     - -with-rtsopts=-N
     dependencies:
+    - base >= 4.7 && < 5
     - Str2Split
     - hspec >= 2.7.1
     - QuickCheck >= 2.13
