@@ -7,6 +7,13 @@
         "commands": [
             {
                 "cwd": "${workspaceFolder}",
+                "name": "Start GHCi",
+                "color": "white",
+                "singleInstance": true,
+                "command": "cabal v2-repl"
+            },
+            {
+                "cwd": "${workspaceFolder}",
                 "name": "Cabal build",
                 "color": "white",
                 "singleInstance": true,
