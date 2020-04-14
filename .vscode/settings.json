@@ -17,7 +17,14 @@
                 "name": "Cabal run",
                 "color": "white",
                 "singleInstance": true,
-                "command": "cabal run Str2Split-exe"
+                "command": "cabal run ${workspaceFolderBasename}-exe"
+            },
+            {
+                "cwd": "${workspaceFolder}",
+                "name": "Cabal test",
+                "color": "white",
+                "singleInstance": true,
+                "command": "cabal run ${workspaceFolderBasename}-test"
             }
         ]
     }
