@@ -2,5 +2,23 @@
     "cSpell.words": [
         "chunker"
     ],
-    "git.autofetch": true
+    "git.autofetch": true,
+    "actionButtons": {
+        "commands": [
+            {
+                "cwd": "${workspaceFolder}",
+                "name": "Cabal build",
+                "color": "white",
+                "singleInstance": true,
+                "command": "cabal build"
+            },
+            {
+                "cwd": "${workspaceFolder}",
+                "name": "Cabal run",
+                "color": "white",
+                "singleInstance": true,
+                "command": "cabal run Str2Split-exe"
+            }
+        ]
+    }
 }
