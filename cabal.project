@@ -1,7 +1,7 @@
 packages: ./
 
-repository ll-skete
-  url: http://g53blumenthal.llan.ll.mit.edu:12344/packages/archive/
+-- repository ll-skete
+  -- url: http://g53blumenthal.llan.ll.mit.edu:12344/packages/archive/
   -- secure: True
   -- root-keys:
   -- key-threshold: 3
