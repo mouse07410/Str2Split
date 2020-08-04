@@ -32,6 +32,13 @@
                 "color": "white",
                 "singleInstance": true,
                 "command": "cabal run ${workspaceFolderBasename}-test"
+            },
+            {
+                "cwd": "${workspaceFolder}",
+                "name": "Cabal clean",
+                "color": "white",
+                "singleInstance": true,
+                "command": "cabal clean"
             }
         ]
     }
