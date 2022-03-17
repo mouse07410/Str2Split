@@ -1,0 +1,62 @@
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.31.2.
+--
+-- see: https://github.com/sol/hpack
+--
+-- hash: 295f93990a5fee525c421b111658ccb55aa40dfb968670dede78f92d405738ba
+
+name:           Str2Split
+version:        0.1.0.0
+description:    Please see the README on GitHub at <https://github.com/mouse07410/Str2Split#readme>
+homepage:       https://github.com/mouse07410/Str2Split#readme
+bug-reports:    https://github.com/mouse07410/Str2Split/issues
+author:         Mouse
+maintainer:     uri@mit.edu
+copyright:      Copyright (C) 2019 Mouse
+license:        BSD3
+license-file:   LICENSE
+build-type:     Simple
+extra-source-files:
+    README.md
+    ChangeLog.md
+
+source-repository head
+  type: git
+  location: https://github.com/mouse07410/Str2Split
+
+library
+  exposed-modules:
+      Lib
+  other-modules:
+      Paths_Str2Split
+  hs-source-dirs:
+      src
+  build-depends:
+      base >=4.7 && <5
+  default-language: Haskell2010
+
+executable Str2Split-exe
+  main-is: Main.hs
+  other-modules:
+      Paths_Str2Split
+  hs-source-dirs:
+      app
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N
+  build-depends:
+      Str2Split
+    , base >=4.7 && <5
+  default-language: Haskell2010
+
+test-suite Str2Split-test
+  type: exitcode-stdio-1.0
+  main-is: Spec.hs
+  other-modules:
+      Paths_Str2Split
+  hs-source-dirs:
+      test
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N
+  build-depends:
+      Str2Split
+    , base >=4.7 && <5
+  default-language: Haskell2010
