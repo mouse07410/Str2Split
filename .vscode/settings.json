@@ -1,6 +1,8 @@
 {
     "cSpell.words": [
-        "chunker"
+        "chunker",
+        "HLINT",
+        "unrecognised"
     ],
     "git.autofetch": true,
     "actionButtons": {
