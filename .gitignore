@@ -7,6 +7,6 @@ dist/**
 new-dist/**
 dist-newstyle/**
 out/
-
+*.log
 .fake
 .ionide
